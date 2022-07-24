@@ -1,0 +1,24 @@
+{
+  "name": "opendataworld/home_invoice",
+  "type": "library",
+  "description": "Получение и обработка данных из PDF файла жировок",
+  "keywords": [
+    "invoice", "home", "php", "pdf"
+  ],
+  "homepage": "https://github.com/opendataworld/home_invoice",
+  "license": "MIT",
+  "authors": [],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.4.0",
+    "smalot/pdfparser": "*",
+    "ext-iconv" : "*",
+    "ext-mbstring" : "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "HomeInvoice\\": "src/"
+    }
+  }
+}
